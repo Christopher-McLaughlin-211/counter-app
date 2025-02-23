@@ -98,7 +98,7 @@ export class CounterApp extends DDDSuper(I18NMixin(LitElement)) {
    </div>
   </confetti-container>`; 
   }
-
+ 
   increase() {
     this.count++;
   }
